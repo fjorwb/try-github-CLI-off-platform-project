@@ -4,8 +4,10 @@ import logging
 logging.basicConfig(level=logging.ERROR, format='%(asctime)s - %(levelname)s - %(message)s')
 
 name = "Joe"
-question = "Will I win the lottery?"
+question = ""
 answer = ""
+
+question = input("Ask a question: ")
 
 if not question:
     print("Please ask a question.")
